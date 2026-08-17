@@ -1,0 +1,43 @@
+{
+  "pluginId": "stripchat",
+  "version": "1.1.0",
+  "apiVersion": 1,
+  "liveTypes": ["stripchat"],
+  "entry": "index.js",
+  "displayName": "Stripchat",
+  "platformDescription": "Stripchat 直播（多分类 + 登录提升画质 + 多画质 + 广告过滤）",
+  "changelog": [
+    "1.1.0：增加情侣/男主播分类、支持登录Cookie、多画质选择",
+    "1.0.0：初始版本：女生分类、房间列表、搜索、播放（过滤宣传广告）"
+  ],
+  "auth": {
+    "required": false,
+    "loginType": "webview",
+    "loginURL": "https://stripchat.com/",
+    "cookieDomains": ["stripchat.com", ".stripchat.com", "zh.stripchat.global"],
+    "authSignalCookies": ["stripchat_com_sessionId", "sessionId", "csrftoken"]
+  },
+  "hostBehavior": {
+    "favoriteIdentityKey": "roomId",
+    "preserveFavoriteRoomInfoOnRefresh": true,
+    "liveStateFailureFallback": "unknow",
+    "supportsLiveEndPolling": true,
+    "playableLiveStates": ["live"],
+    "externalRoomURLTemplate": "https://stripchat.com/{userName}",
+    "themeColor": "#E91E63"
+  },
+  "shareResolve": {
+    "hosts": ["stripchat.com", "zh.stripchat.com", "zh.stripchat.global", "stripchat.global"],
+    "keywords": ["Stripchat", "stripchat"]
+  },
+  "capabilities": {
+    "categories": "available",
+    "rooms": "available",
+    "playback": "available",
+    "search": "available",
+    "roomDetail": "available",
+    "liveState": "available",
+    "shareResolve": "available",
+    "danmaku": "unavailable"
+  }
+}
