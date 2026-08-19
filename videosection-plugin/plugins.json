@@ -1,20 +1,21 @@
 {
   "apiVersion": 1,
-  "generatedAt": "2026-08-19T03:30:00Z",
+  "generatedAt": "2026-08-19T03:35:00Z",
   "plugins": [
     {
       "pluginId": "videosection",
-      "version": "1.0.0",
-      "sha256": "4aa916a0331ce0db0a5bec5f4b3fc20c4a0897cd9f3c2b0032919435ad054371",
+      "version": "1.0.1",
+      "sha256": "591a9b6f98e39bbfc9946a701e6ed23808c83e6af01040db4bca8835bc5e8898",
       "zipURLs": [
         "https://ghfast.top/https://raw.githubusercontent.com/qq5680/yy4940/master/videosection-plugin/dist/videosection-1.0.1.zip",
         "https://raw.githubusercontent.com/qq5680/yy4940/master/videosection-plugin/dist/videosection-1.0.1.zip"
       ],
       "platform": "videosection",
       "platformName": "VideoSection",
-      "platformDescription": "VideoSection 直播（Stripchat 白牌，多分类 + 多画质 + 广告过滤）",
+      "platformDescription": "VideoSection 直播（免费/付费区分 + 多画质 + 广告过滤）",
       "changelog": [
-        "1.0.0：初始版本：女生/情侣/男主播分类、搜索、多画质、过滤宣传广告"
+        "1.0.1：区分免费/付费房间，支持仅免费、仅付费筛选",
+        "1.0.0：初始版本：女生/情侣分类、搜索、多画质播放、过滤宣传广告"
       ],
       "auth": { "required": false }
     }
