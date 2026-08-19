@@ -1,0 +1,42 @@
+{
+  "pluginId": "chaturbate",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "liveTypes": ["chaturbate"],
+  "entry": "index.js",
+  "displayName": "Chaturbate",
+  "platformDescription": "Chaturbate 直播（公开房，多分类 + 免费/付费标记 + 多画质）",
+  "changelog": [
+    "1.0.0：初始版本：女/男/情侣/跨性别分类、仅免费筛选、搜索、多画质、公开房播放"
+  ],
+  "auth": {
+    "required": false,
+    "loginType": "webview",
+    "loginURL": "https://chaturbate.com/auth/login/",
+    "cookieDomains": ["chaturbate.com", ".chaturbate.com"],
+    "authSignalCookies": ["sessionid", "csrftoken"]
+  },
+  "hostBehavior": {
+    "favoriteIdentityKey": "roomId",
+    "preserveFavoriteRoomInfoOnRefresh": true,
+    "liveStateFailureFallback": "unknow",
+    "supportsLiveEndPolling": true,
+    "playableLiveStates": ["live"],
+    "externalRoomURLTemplate": "https://chaturbate.com/{userName}/",
+    "themeColor": "#F47321"
+  },
+  "shareResolve": {
+    "hosts": ["chaturbate.com", "www.chaturbate.com", "chaturbate.eu", "chaturbate.global"],
+    "keywords": ["Chaturbate", "chaturbate"]
+  },
+  "capabilities": {
+    "categories": "available",
+    "rooms": "available",
+    "playback": "available",
+    "search": "available",
+    "roomDetail": "available",
+    "liveState": "available",
+    "shareResolve": "available",
+    "danmaku": "unavailable"
+  }
+}
