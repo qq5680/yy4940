@@ -1,21 +1,22 @@
 {
   "apiVersion": 1,
-  "generatedAt": "2026-08-19T14:20:00Z",
+  "generatedAt": "2026-08-19T14:50:00Z",
   "plugins": [
     {
       "pluginId": "chaturbate",
-      "version": "1.2.0",
-      "sha256": "fdb8b8ea6724acb8e104483cebe673d5370e0683488b87dbb5254cad63bbcdaa",
+      "version": "1.3.0",
+      "sha256": "75ca962a20030dc62474e2027373d3348f2ec01ca4331ff8549be0ac43642595",
       "zipURLs": [
-        "https://ghfast.top/https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.2.0.zip",
-        "https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.2.0.zip"
+        "https://ghfast.top/https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.3.0.zip",
+        "https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.3.0.zip"
       ],
       "platform": "chaturbate",
       "platformName": "Chaturbate",
-      "platformDescription": "Chaturbate 直播（公开房，多分类 + 免费/付费标记 + HLS 播放）",
+      "platformDescription": "Chaturbate 直播（公开房 HLS）",
       "changelog": [
-        "1.2.0：修复 getRooms 解码失败（liveState 仅 live/unknow）",
-        "1.1.0：修复无法播放：不再预拉 master",
+        "1.3.0：修复 LiveQualityModel 解码失败；女生列表标题纯 ASCII",
+        "1.2.0：修复 getRooms 解码失败",
+        "1.1.0：不再预拉 master",
         "1.0.0：初始版本"
       ],
       "auth": {
