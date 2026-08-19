@@ -1,21 +1,22 @@
 {
   "apiVersion": 1,
-  "generatedAt": "2026-08-19T13:20:00Z",
+  "generatedAt": "2026-08-19T14:20:00Z",
   "plugins": [
     {
       "pluginId": "chaturbate",
-      "version": "1.1.0",
-      "sha256": "6b12fdf6d9931b61dbf15d7f75dccb3f7bd13ae824c483b73d22c5da12c64b12",
+      "version": "1.2.0",
+      "sha256": "fdb8b8ea6724acb8e104483cebe673d5370e0683488b87dbb5254cad63bbcdaa",
       "zipURLs": [
-        "https://ghfast.top/https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.1.0.zip",
-        "https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.1.0.zip"
+        "https://ghfast.top/https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.2.0.zip",
+        "https://raw.githubusercontent.com/qq5680/yy4940/master/chaturbate-plugin/dist/chaturbate-1.2.0.zip"
       ],
       "platform": "chaturbate",
       "platformName": "Chaturbate",
       "platformDescription": "Chaturbate 直播（公开房，多分类 + 免费/付费标记 + HLS 播放）",
       "changelog": [
-        "1.1.0：修复无法播放：不再预拉 master（避免 403 session_duplicated）",
-        "1.0.0：初始版本：女/男/情侣/跨性别分类、仅免费筛选、搜索、公开房播放"
+        "1.2.0：修复 getRooms 解码失败（liveState 仅 live/unknow）",
+        "1.1.0：修复无法播放：不再预拉 master",
+        "1.0.0：初始版本"
       ],
       "auth": {
         "required": false
