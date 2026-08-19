@@ -1,22 +1,22 @@
 {
   "apiVersion": 1,
-  "generatedAt": "2026-08-17T08:14:00Z",
+  "generatedAt": "2026-08-19T03:42:00Z",
   "plugins": [
     {
       "pluginId": "stripchat",
-      "version": "1.1.1",
-      "sha256": "752fa9734b9165c5e01e05fbdf07bc805888cbe29265bb66bf80bf97686f13fe",
+      "version": "1.1.2",
+      "sha256": "60c3ae146e0389c0de0f347582980e9054daddc4dd3e98469bdfe9ff5b9e7d96",
       "zipURLs": [
-        "https://ghfast.top/https://raw.githubusercontent.com/qq5680/yy4940/master/stripchat-plugin/dist/stripchat-1.1.1.zip",
-        "https://raw.githubusercontent.com/qq5680/yy4940/master/stripchat-plugin/dist/stripchat-1.1.1.zip"
+        "https://ghfast.top/https://raw.githubusercontent.com/qq5680/yy4940/master/stripchat-plugin/dist/stripchat-1.1.2.zip",
+        "https://raw.githubusercontent.com/qq5680/yy4940/master/stripchat-plugin/dist/stripchat-1.1.2.zip"
       ],
       "platform": "stripchat",
       "platformName": "Stripchat",
-      "platformDescription": "Stripchat 直播（多分类 + 登录提升画质 + 多画质 + 广告过滤）",
+      "platformDescription": "Stripchat 直播（免费/付费区分 + 多分类 + 多画质 + 广告过滤）",
       "changelog": [
+        "1.1.2：区分免费/付费房间，支持仅免费、仅付费筛选",
         "1.1.1：修复播放返回格式导致解码失败",
-        "1.1.0：增加情侣/男主播分类、支持登录Cookie、多画质选择",
-        "1.0.0：初始版本：女生分类、房间列表、搜索、播放（过滤宣传广告）"
+        "1.1.0：增加情侣/男主播分类、支持登录Cookie、多画质选择"
       ],
       "auth": { "required": false }
     }
